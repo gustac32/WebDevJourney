@@ -1,0 +1,154 @@
+html{
+    overflow-x: hidden
+}
+
+.head {
+  background-color: rgb(128,112,112,0.503);
+  height: 100px;
+}
+h1{
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgba(238, 233, 233, 0.918);
+}
+.nav{
+    width: 100%;
+    background-color: rgba(128, 112, 112, 0.503);
+    overflow: auto;
+    height: 60px;
+}
+.nav ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 60px;
+}
+.nav li{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: rgb(71,82,155);
+    margin: auto;
+    background-image: url("/HTML/tt.jpeg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+ .imagenRandom img{
+        padding-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: transparent;
+}
+.listaRandom{
+    width: 20%;
+    padding-left: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(12%, -150%);
+    background-color: transparent;
+
+}
+.listaRandom h3{
+    color: rgb(171, 152, 152);
+    font-size: 25px;
+}
+.listaRandom li{
+    margin: 30px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.quienSoy{
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: rgb(128,112,112,0.503)
+}
+.quienSoy h2{
+    text-align: center;
+    color: rgba(212, 197, 132, 0.693);
+    font-size: 35px;
+}
+.quienSoy p{
+    text-align: center;
+    color: #b19d9dbc;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    margin-top: 150px;
+    width: 100;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
