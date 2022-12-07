@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Here is the header styling and also adding the background image*/
+#header{
+    margin: 50px 5px;
+    background-image: url("/images/pattern.jpeg");
+}
+header{
+    margin: auto;
+    padding: 40px 1px;
+}
+header h1{
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+/*end of header styling*/
+.content{
+    margin: auto;
+    padding: 20px 5px;
+}
+.content h1{
+    margin: 30px 3px;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+/*adding background color to the headings*/
+#hb{
+    background-color: mediumspringgreen;
+}
+#hf{
+    background-color: lightcoral;
+}
+#hp{
+    background-color: skyblue;
+}
+/*end of background color rules to heading*/
+
+.content h2{
+    margin: 20px 5px;
+}
+.content p{
+    margin: 20px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
